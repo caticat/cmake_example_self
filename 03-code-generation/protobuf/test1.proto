@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package test1;
+
+message Data1
+{
+    int32 id1 = 1;
+    bytes data1 = 2;
+}
